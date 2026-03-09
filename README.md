@@ -86,3 +86,13 @@ Imagen de Napkin.AI
 lanzar esta API  
 >
 >`uvicorn main:app --reload`
+
+Para crear las apis, se usan los decoradores
+
+* @app.get("/")     
+* @app.post("/") 
+* @app.put("/")    
+* @app.patch("/") 
+* @app.delete("/") 
+def funcion_api():  # Función Python que se ejecuta cuando se llama este endpoint
+    return {"mensaje": "Respuesta de la API"}
